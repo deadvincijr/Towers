@@ -1,0 +1,52 @@
+body {
+    background-color: lightgray;
+}
+
+#Moneyclick {
+    width: 20%;
+    padding: 5%;
+    border-style: dashed;
+    background-color: red;
+}
+
+#goldclick {
+    position: relative;
+    width: 20%;
+    padding: 5%;
+    border-style: dashed;
+    background-color: white;
+    left: 30%
+}
+
+#Man {
+    border-style: solid;
+    background-color: darkgray;
+    position: relative;
+    width: 10%;
+    padding: 5%;
+}
+
+#goldcount {
+    width: 5%;
+    background-color: gold;
+    border-style: solid
+}
+
+#moneydiv {
+    width: 5%;
+    background-color: green;
+    border-style: solid
+}
+
+#startbutton {
+    width: 15%;
+    background-color: aqua;
+    border-style: solid;
+}
+
+#gamearea {
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between; /* This creates space between the items */
+}
